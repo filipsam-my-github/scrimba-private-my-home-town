@@ -79,24 +79,22 @@ footer {
 }
 
 .card img {
-  width: min(12vw, 12vh);
-  height: min(12vw, 12vh);
   border-radius: 50%;
+  height: min(12vw, 12vh);
+  width: min(12vw, 12vh);
 }
 
 .personal-card {
-  margin: 1rem auto 0 auto;
-  display: flex;
-  flex-direction: row;
-  width: 33%;
-  padding: 1rem;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-
   background-color: var(--clr-bg-cyan);
   border-bottom: 0.5rem solid var(--clr-border-blue);
-
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  margin: 1rem auto 0 auto;
+  padding: 1rem;
   text-align: center;
+  width: 33%;
 }
 
 .personal-card p {
@@ -104,6 +102,6 @@ footer {
 }
 
 .personal-card img {
-  width: 33%;
   height: 80%;
+  width: 33%;
 }
