@@ -1,7 +1,19 @@
+:root {
+  --clr-bg-cyan: #a8dadb;
+  --clr-bg-blue: #427ca3;
+  --clr-bg-dark-blue: #1e3555;
+  --clr-blue: #14344a;
+  --clr-white: whitesmoke;
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+body {
+  color: var(--clr-blue);
 }
 
 header {
