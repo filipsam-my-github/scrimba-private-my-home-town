@@ -1,5 +1,6 @@
-.screenreader-alt {
+.screenreader-only {
   position: absolute;
   opacity: 0;
   width: 0px;
+  font-size: 0;
 }
