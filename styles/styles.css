@@ -30,6 +30,20 @@ header {
   background-position: 0% 60%;
 }
 
+header h1 {
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  color: var(--clr-white);
+  background-color: var(--clr-bg-blue);
+}
+
+header h2 {
+  padding: 0.25rem 0.5rem;
+  border-radius: 20px;
+  color: var(--clr-white);
+  background-color: var(--clr-bg-dark-blue);
+}
+
 main {
   display: block;
   min-height: 34vh;
