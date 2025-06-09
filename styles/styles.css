@@ -1,15 +1,20 @@
 :root {
-  --clr-bg-cyan: #a8dadb;
   --clr-bg-blue: #427ca3;
+  --clr-bg-cyan: #a8dadb;
   --clr-bg-dark-blue: #1e3555;
+  --clr-bg-greenish: #f2f9ef;
+  --clr-bg-white: #fff;
+
+  --clr-border-blue: #6691a9;
+
   --clr-blue: #14344a;
   --clr-white: whitesmoke;
 }
 
 * {
-  padding: 0;
-  margin: 0;
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -17,43 +22,43 @@ body {
 }
 
 header {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
-  gap: 20px;
-  min-height: 33vh;
-  min-width: 100vw;
   background-image: url(../images/main-terespol-pic.jpg);
+  background-position: 0% 60%;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 0% 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  min-height: 33vh;
+  min-width: 100vw;
 }
 
 header h1 {
-  padding: 0.5rem 1rem;
+  background-color: var(--clr-bg-blue);
   border-radius: 20px;
   color: var(--clr-white);
-  background-color: var(--clr-bg-blue);
+  padding: 0.5rem 1rem;
 }
 
 header h2 {
-  padding: 0.25rem 0.5rem;
+  background-color: var(--clr-bg-dark-blue);
   border-radius: 20px;
   color: var(--clr-white);
-  background-color: var(--clr-bg-dark-blue);
+  padding: 0.25rem 0.5rem;
 }
 
 main {
+  background-color: greenyellow;
   display: block;
   min-height: 34vh;
   min-width: 100vw;
-  background-color: greenyellow;
 }
 
 footer {
+  background-color: pink;
   display: block;
   min-height: 33vh;
   min-width: 100vw;
-  background-color: pink;
 }
