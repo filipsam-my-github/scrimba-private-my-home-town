@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  min-height: 33vh;
+  min-width: 100vw;
+  background-image: url(../images/main-terespol-pic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0% 60%;
+}
+
+main {
+  display: block;
+  min-height: 34vh;
+  min-width: 100vw;
+  background-color: greenyellow;
+}
+
+footer {
+  display: block;
+  min-height: 33vh;
+  min-width: 100vw;
+  background-color: pink;
+}
