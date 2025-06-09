@@ -50,10 +50,16 @@ header h2 {
 }
 
 main {
-  background-color: greenyellow;
+  background-color: var(--clr-bg-greenish);
   display: block;
+  padding-top: 2vh;
   min-height: 34vh;
   min-width: 100vw;
+  text-align: center;
+}
+
+main h2 {
+  margin-bottom: 1rem;
 }
 
 footer {
@@ -61,4 +67,19 @@ footer {
   display: block;
   min-height: 33vh;
   min-width: 100vw;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card p {
+  margin: 1vh 20%;
+}
+
+.card img {
+  width: min(12vw, 12vh);
+  height: min(12vw, 12vh);
+  border-radius: 50%;
 }
