@@ -63,9 +63,9 @@ main h2 {
 }
 
 footer {
-  background-color: pink;
+  background-color: var(--clr-bg-white);
   display: block;
-  min-height: 33vh;
+  min-height: 30vh;
   min-width: 100vw;
 }
 
@@ -82,4 +82,28 @@ footer {
   width: min(12vw, 12vh);
   height: min(12vw, 12vh);
   border-radius: 50%;
+}
+
+.personal-card {
+  margin: 1rem auto 0 auto;
+  display: flex;
+  flex-direction: row;
+  width: 33%;
+  padding: 1rem;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+  background-color: var(--clr-bg-cyan);
+  border-bottom: 0.5rem solid var(--clr-border-blue);
+
+  text-align: center;
+}
+
+.personal-card p {
+  margin: 5% 20%;
+}
+
+.personal-card img {
+  width: 33%;
+  height: 80%;
 }
